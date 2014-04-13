@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:minWidth="1000dp"  
+    android:minHeight="1000dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp" 
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/share_facebook_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/share_button"
+            android:text="Facebook"
+            android:textColor="@drawable/share_button_text"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/share_twitter_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/share_button"
+            android:text="Twitter"
+            android:textColor="@drawable/share_button_text"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/share_other_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/share_button"
+            android:text="Other"
+            android:textColor="@drawable/share_button_text"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</FrameLayout>

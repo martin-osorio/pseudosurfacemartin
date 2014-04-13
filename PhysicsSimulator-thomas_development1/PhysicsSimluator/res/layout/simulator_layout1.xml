@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/stars_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <ImageView
+                android:id="@+id/star_1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/green_outline_square" />
+
+            <ImageView
+                android:id="@+id/star_2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/green_outline_square" />
+
+            <ImageView
+                android:id="@+id/star_3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/green_outline_square" />
+        </LinearLayout>
+    </FrameLayout>
+    
+    <com.psuedosurface.views.TimeView android:id="@+id/simulator_time_view"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="00:00:00"
+        android:layout_below="@id/stars_frame"
+        android:layout_margin="10dp"/>
+
+</RelativeLayout>

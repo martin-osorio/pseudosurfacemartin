@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:paddingTop="40dp" >
+    
+    <Button
+        android:id="@+id/main_row_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/main_button"
+        android:padding="10dp"
+        android:text="Button"
+        android:textColor="@drawable/main_button_text"
+        android:textSize="28sp"
+        android:typeface="monospace" 
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+</FrameLayout>

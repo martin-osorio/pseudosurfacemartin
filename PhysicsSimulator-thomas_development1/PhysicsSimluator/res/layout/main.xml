@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight=".5">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="match_parent" >
+
+            <Button
+		        android:id="@+id/main_play"
+		        android:layout_width="250dp"
+		        android:layout_height="wrap_content"
+		        android:padding="30dp"
+		        android:layout_margin="10dp"
+		        android:background="@drawable/main_button"
+		        android:text="Play"
+		        android:layout_gravity="center"
+		        android:textColor="@drawable/main_button_text"
+		        android:textSize="28sp"
+		        android:typeface="monospace" 
+		        android:layout_marginLeft="30dp"
+		        android:layout_marginRight="30dp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="match_parent" >
+            
+            <Button
+		        android:id="@+id/main_scores"
+		        android:layout_width="250dp"
+		        android:layout_height="wrap_content"
+		        android:padding="30dp"
+		        android:layout_margin="10dp"
+		        android:background="@drawable/main_button"
+		        android:text="High Scores"
+		        android:layout_gravity="center"
+		        android:textColor="@drawable/main_button_text"
+		        android:textSize="28sp"
+		        android:typeface="monospace" 
+		        android:layout_marginLeft="30dp"
+		        android:layout_marginRight="30dp"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight=".5">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="match_parent" >
+            
+            <Button
+		        android:id="@+id/main_options"
+		        android:layout_width="250dp"
+		        android:layout_height="wrap_content"
+		        android:padding="30dp"
+		        android:layout_margin="10dp"
+		        android:layout_gravity="center"
+		        android:background="@drawable/main_button"
+		        android:text="Options"
+		        android:textColor="@drawable/main_button_text"
+		        android:textSize="28sp"
+		        android:typeface="monospace" 
+		        android:layout_marginLeft="30dp"
+		        android:layout_marginRight="30dp"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="match_parent" >
+            
+            <Button
+		        android:id="@+id/main_share"
+		        android:layout_width="250dp"
+		        android:layout_height="wrap_content"
+		        android:padding="30dp"
+		        android:layout_margin="10dp"
+		        android:background="@drawable/main_button"
+		        android:text="Share"
+		        android:textColor="@drawable/main_button_text"
+		        android:textSize="28sp"
+		        android:typeface="monospace" 
+		        android:layout_gravity="center"
+		        android:layout_marginLeft="30dp"
+		        android:layout_marginRight="30dp"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

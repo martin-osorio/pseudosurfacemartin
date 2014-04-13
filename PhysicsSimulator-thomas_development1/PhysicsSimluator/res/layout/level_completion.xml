@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/level_completion_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Level 1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@drawable/main_button_text"
+        android:textSize="18sp"
+        android:typeface="monospace" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" 
+            android:layout_margin="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight=".5" >
+                
+                    <TextView
+                        android:id="@+id/completion_time"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:text="1:23:54"
+				        android:textAppearance="?android:attr/textAppearanceLarge"
+				        android:textColor="@drawable/main_button_text"
+				        android:textSize="18sp"
+				        android:gravity="center"
+				        android:typeface="monospace" 
+				        android:layout_marginTop="5dp"/>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight=".5" >
+				
+		        <LinearLayout
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center" >
+		
+		            <ImageView
+		                android:id="@+id/star_1"
+		                android:layout_width="20dp"
+		                android:layout_height="20dp"
+		                android:layout_margin="5dp"
+		                android:src="@drawable/green_outline_square" />
+		
+		            <ImageView
+		                android:id="@+id/star_2"
+		                android:layout_width="20dp"
+		                android:layout_height="20dp"
+		                android:layout_margin="5dp"
+		                android:src="@drawable/green_outline_square" />
+		
+		            <ImageView
+		                android:id="@+id/star_3"
+		                android:layout_width="20dp"
+		                android:layout_height="20dp"
+		                android:layout_margin="5dp"
+		                android:src="@drawable/green_outline_square" />
+		        </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+            <Button
+		        android:id="@+id/level_completion_retry"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight=".3"
+		        android:layout_margin="10dp"
+		        android:background="@drawable/main_button"
+		        android:text="Retry"
+		        android:layout_gravity="center"
+		        android:textColor="@drawable/main_button_text"
+		        android:textSize="22sp"
+		        android:typeface="monospace" />
+            
+            <Button
+		        android:id="@+id/level_completion_next"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight=".3"
+		        android:layout_margin="10dp"
+		        android:background="@drawable/main_button"
+		        android:text="Next Level"
+		        android:layout_gravity="center"
+		        android:textColor="@drawable/main_button_text"
+		        android:textSize="22sp"
+		        android:typeface="monospace" />
+    </LinearLayout>
+
+</LinearLayout>
